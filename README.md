@@ -12,7 +12,7 @@ The Car Fleet Manager is a C language program designed to manage and track a fle
 ## Installation
 To install the Car Fleet Manager, clone the repository to your local machine using the following command:
 ```
-git clone https://github.com/[YourUsername]/[RepositoryName].git
+git clone https://github.com/kopach-artem/Car-Fleet-Manager/.git
 ```
 ## Files Description
 - `Source.c`: Main application source code.
