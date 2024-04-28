@@ -310,9 +310,9 @@ void AddNewReFuel(CarNode* head, int id)
 void SaveToFile(CarNode* head)
 {
 	FILE* fp;
-	fp = fopen("C:\\Users\\akopa\\OneDrive\\Рабочий стол\\My education BME\\HW Prog\\cars.txt", "w");
+	fp = fopen("C:\\Users\\akopa\\OneDrive\\ДђЕ•ГЎГ®Г·ДЌГ© Е„Е€Г®Г«\\My education BME\\HW Prog\\cars.txt", "w");
 	FILE* fpF;
-	fpF = fopen("C:\\Users\\akopa\\OneDrive\\Рабочий стол\\My education BME\\HW Prog\\Refueling.txt", "w");
+	fpF = fopen("C:\\Users\\akopa\\OneDrive\\ДђЕ•ГЎГ®Г·ДЌГ© Е„Е€Г®Г«\\My education BME\\HW Prog\\Refueling.txt", "w");
 	if (fp == NULL || fpF == NULL) // Check do we have file or no?
 	{
 		printf("No Files can be created.");
@@ -439,7 +439,7 @@ int main()
 
 	/*int carID = 0;*/
 
-	fp = fopen("C:\\Users\\akopa\\OneDrive\\Рабочий стол\\My education BME\\HW Prog\\cars.txt", "r");
+	fp = fopen("C:\\Users\\akopa\\OneDrive\\ДђЕ•ГЎГ®Г·ДЌГ© Е„Е€Г®Г«\\My education BME\\HW Prog\\cars.txt", "r");
 
 	//We must open the file of cars to get this to list
 
@@ -457,7 +457,7 @@ int main()
 	}
 	fclose(fp);
 
-	fp = fopen("C:\\Users\\akopa\\OneDrive\\Рабочий стол\\My education BME\\HW Prog\\refueling.txt", "r");
+	fp = fopen("C:\\Users\\akopa\\OneDrive\\ДђЕ•ГЎГ®Г·ДЌГ© Е„Е€Г®Г«\\My education BME\\HW Prog\\refueling.txt", "r");
 
 	//We must open the file of cars to get this to list
 
